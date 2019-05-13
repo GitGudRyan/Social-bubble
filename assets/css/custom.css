@@ -1,0 +1,38 @@
+.bubble-container {
+    display: flex;
+    height: 60vh;
+    background-color: transparent;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bubble-container.bubble-small {
+    height: auto;
+}
+
+div.hero.bubble-transparent {
+    background-color: transparent;
+}
+
+div.hero-body.bubble-overlay, nav.navbar.bubble-overlay {
+    background-color: rgba(201, 201, 201, 0.9);
+}
+
+.box .title, .box p {
+    color: black!important;
+}
+
+.container .button {
+    float: left;
+}
+
+.container .box {
+    margin-top: 20px;
+}
+
+body {
+    background-image: url('../img/bubble.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+}

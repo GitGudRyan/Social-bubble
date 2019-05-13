@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../bulma.min.css">
+    <link rel="stylesheet" href="../assets/css/custom.css">
+    <script src="../assets/js/particles.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+<body>
+<section>
+    <nav class="navbar is-dark bubble-overlay">
+        <div class="navbar-start">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="..">
+                    <img src="../assets/img/pepe.jpg">
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <a class="navbar-item" href="1.html">
+                    Social Bubbles Onderwerp 1
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="2.html">Social Bubbles Onderwerp 2</a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item is-active" href="3.html">
+                            Social Bubbles Onderwerp 3
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-end">
+            <div class="navbar-menu" id="navMenu">
+                <a class="navbar-item" href="contact.html">
+                    <span class="icon is-small">
+                        <i class="fas fa-life-ring"></i>
+                    </span>
+                    &nbsp;
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+        <a class="navbar-burger burger"
+           onclick="this.classList.toggle('is-active'); [].forEach.call(document.getElementsByClassName('navbar-menu'), element => element.classList.toggle('is-active'));">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </nav>
+</section>
+<section>
+    <div class="hero is-fullheight-with-navbar is-dark bubble-transparent">
+        <div class="hero-head has-text-centered bubble-small bubble-container">
+            <div class="content">
+                <h1 class="title is-1">
+                    Bubbles Subpage 3
+                </h1>
+                <h3 class="subtitle is-3">
+                    Inspirational Quote
+                </h3>
+            </div>
+        </div>
+        <div class="hero-body has-text-centered bubble-overlay" style="justify-content: center;">
+            <div class="container">
+                <a class="button is-small" href="..">
+                <span class="icon is-small">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                    <span>Go Back To Landing</span>
+                </a>
+                <br>
+                <div class="box">
+                    <div class="content">
+                        <h2 class="title is-2">Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas posuere tortor at nibh
+                            tincidunt lacinia. Cras felis diam, blandit eu imperdiet a, gravida eu justo. Donec rutrum
+                            efficitur leo sed vulputate. Sed vulputate odio in pellentesque convallis. Nam nulla odio,
+                            molestie id quam a, eleifend facilisis nunc. Etiam vitae est at lorem euismod feugiat. Ut
+                            semper felis dictum, placerat nisi vel, blandit ante. Vestibulum non accumsan metus, in
+                            convallis justo. Quisque efficitur dapibus pretium. Mauris eget felis vulputate felis
+                            ultricies convallis eu quis orci. Aliquam sapien sapien, feugiat at elementum a, elementum
+                            nec tortor. Vivamus scelerisque luctus mollis. Ut consequat ut risus eget malesuada. Donec
+                            fringilla tortor vitae diam commodo commodo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-foot">
+        </div>
+    </div>
+</section>
+</body>
+</html>
