@@ -21,30 +21,17 @@
     <script src="assets/js/app.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
-    <table>
- <caption>Table Title</caption> <!--| caption is the first child of table |-->
-  <thead> <!--======================| thead is after caption |-->
-    <tr>
-      <th>Header content 1</th> 
-      <th>Header content 2</th>
-    </tr>
-  </thead>
-
-  <tbody> <!--======================| tbody is after thead |-->
-    <tr>
-      <td>Body content 1</td>
-      <td>Body content 2</td>
-    </tr>
-  </tbody>
-  
-  <tfoot><!--| tfoot can be placed before or after tbody, but not in a group of tbody. |-->         <!--| Regardless where tfoot is in markup, it's rendered at the bottom. |-->                                                                                                                                                                                                                                                                                               
-    <tr>
-      <td>Footer content 1</td>
-      <td>Footer content 2</td>
-    </tr>
-  </tfoot>
-
-</table>
+    <video id="sampleMovie" width="640" height="360" preload controls>
+	<source src="HTML5Sample_H264.mov" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"' />
+	<source src="HTML5Sample_Ogg.ogv" type='video/ogg; codecs="theora, vorbis"' />
+	<source src="HTML5Sample_WebM.webm" type='video/webm; codecs="vp8, vorbis"' />
+	<object type="application/x-shockwave-flash" data="https://www.youtube.com/watch?v=doWZHFnVPQ8" width="640" height="360">
+		<param name="movie" value="http://releases.flowplayer.org/swf/flowplayer-3.2.1.swf" />
+		<param name="allowFullScreen" value="true" />
+		<param name="wmode" value="transparent" />
+		<param name="flashvars" value='config={"clip":{"url":"HTML5Sample_flv.flv","autoPlay":false,"autoBuffering":true}}' />
+	</object>
+</video>
 <body>
 <section>
     <nav class="navbar is-dark bubble-overlay">
