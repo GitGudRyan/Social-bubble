@@ -9,6 +9,7 @@
 
 .bubble-container.bubble-small {
     height: auto;
+    padding-top: 20px;
 }
 
 div.hero.bubble-transparent {
@@ -29,6 +30,15 @@ div.hero-body.bubble-overlay, nav.navbar.bubble-overlay {
 
 .container .box {
     margin-top: 20px;
+}
+
+.navbar.is-dark .navbar-start .navbar-menu .navbar-item.is-active:not(:hover) {
+    background-color: #292929;
+    color: #f5f5f5;
+}
+
+.navbar.is-dark .navbar-start .navbar-link:not(:hover):not(.is-active) {
+    color: #4a4a4a;
 }
 
 body {
