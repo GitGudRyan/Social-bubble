@@ -20,6 +20,11 @@ div.hero-body.bubble-overlay, nav.navbar.bubble-overlay {
     background-color: rgba(201, 201, 201, 0.9);
 }
 
+div.hero-body.bubble-overlay.has-text-centered {
+    justify-content: center;
+    flex-direction: column;
+}
+
 .box .title, .box p {
     color: black!important;
 }
